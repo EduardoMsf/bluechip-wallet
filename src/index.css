@@ -1,5 +1,7 @@
 body{
   font-family: 'Graphik', sans-serif;
+  background-color: #000;
+  color: #fff;
 }
 
 #navbar-custom{
@@ -26,6 +28,72 @@ body{
 .degradado{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,202,244,1) 0%, rgba(54,54,189,1) 100%);
-  border-radius: 20px;
+  border-radius: 15px;
   color: #fff
+}
+
+.container-principal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 240px;
+  margin: 10% auto;
+}
+
+.container-columnas__info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.columnas-utilities{
+  width: 45%;
+}
+
+.degradado-title{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,202,244,1) 0%, rgba(54,54,189,1) 100%);
+  border-radius: 15px;
+  color: #fff;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  height: 50% !important;
+}
+
+.container-dapp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #232139;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.card-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.degradado-texto {
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,202,244,1) 0%, rgba(54,54,189,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  font-weight:600;
 }
